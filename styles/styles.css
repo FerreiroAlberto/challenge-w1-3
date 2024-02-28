@@ -43,6 +43,18 @@ main nav {
   padding-right: 2rem;
 }
 
+div {
+  padding-right: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  padding-right: 2px;
+  display: flex;
+}
+
 main > section:first-child p {
   background-color: rgb(208, 157, 114);
   display: flex;
@@ -71,7 +83,7 @@ main [href] {
 
 main > section:nth-child(2) {
   background-color: rgb(209, 190, 173);
-  height: 25vh;
+  height: 30vh;
   padding-right: 2rem;
   display: flex;
   justify-content: space-between;
@@ -97,7 +109,7 @@ main > section:nth-child(3) {
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: #4b2948;
-  height: 35vh;
+  height: 30vh;
   display: flex;
   padding-left: 2rem;
   padding-right: 2rem;
