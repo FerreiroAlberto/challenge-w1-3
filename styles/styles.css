@@ -122,6 +122,10 @@ main > section:nth-child(3) p {
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: center;
   background-color: rgb(81, 105, 167);
   height: 15vh;
 }
