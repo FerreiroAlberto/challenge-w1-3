@@ -1,3 +1,115 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  background-color: rgb(81, 105, 167);
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+header h1 {
+  display: flex;
+}
+
+header nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+header nav a:nth-child(2) {
+  font-weight: 600;
+}
+
+main nav {
+  background-color: rgb(208, 157, 114);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+main > section:first-child p {
+  background-color: rgb(208, 157, 114);
+  display: flex;
+  justify-content: flex-end;
+  font-size: xx-large;
+}
+
+main > section:first-child a {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #54188b;
+  color: #d09d72;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: 900;
+  text-decoration: none;
+  text-decoration-style: solid;
+}
+
+main [href] {
+  background-color: rgb(84, 23, 130);
+}
+
+main > section:nth-child(2) {
+  background-color: rgb(209, 190, 173);
+  height: 25vh;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+main > section:nth-child(2) ul:first-child {
+  padding-top: 2rem;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+main > section:nth-child(2) ul:nth-child(n + 1) {
+  padding-top: 2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+main > section:nth-child(3) {
+  background-color: rgb(209, 190, 173);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #4b2948;
+  height: 35vh;
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  justify-content: flex-end;
+}
+
+main > section:nth-child(3) p {
+  padding-top: 1rem;
+  font-size: larger;
+}
+
+footer {
+  background-color: rgb(81, 105, 167);
+  height: 15vh;
 }
