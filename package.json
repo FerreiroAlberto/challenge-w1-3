@@ -1,0 +1,16 @@
+{
+  "name": "challenge03",
+  "version": "1.0.0",
+  "description": "Maquetar con HTML y CSS",
+  "main": "list.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alberto Ferreiro",
+  "license": "ISC",
+  "type": "module",
+  "prettier": {
+    "singleQuote": true
+  }
+}
